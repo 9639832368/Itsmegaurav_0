@@ -89,7 +89,7 @@ print(num)
 
 if (num % 2 == 0):
     print("number is even")
-else:
+else:ti
     print("number is odd")
 
 
@@ -116,5 +116,66 @@ print(num)
 if (num % 7 == 0):
     print("number is multiple of 7")
 else:
-    print("number is not multiple of 7")"""
+    print("number is not multiple of 7"
 
+
+marks = [54,4546,767,75,35,65]
+print(marks)
+print(type(marks))
+print(marks[0])
+print(marks[2])
+print(len(marks))
+
+
+#student = ["gaurav",86,87,97,45,66,33, 7453093954,"up"]
+#print(student[8])
+student=[45,67,546,6,6,6,68,9,9,6,554,4,5,4667,89,99,9,8,7]
+
+#slicing
+print(student[1:4])
+print(student[1:])
+print(student[1:len(student)])
+print(student[:4])
+print(student[-3:-1])
+student.append(78)
+#add one element at the end
+print(student)
+student.sort()#short in assending order
+print(student)
+student.sort(reverse=True)#sorts in desending order
+print(student)
+student.reverse()
+#print(student.insert(index,element)) #insert element at index
+print(student)
+student.remove(1) #remove first occurrance of elements
+print(student)
+student.pop(5) #remove element at idx 
+print(student)
+#etc
+
+#tuple
+tuple = (43,655,96,327,975,8945,09)
+#tuple[0],tuple[1],tuple[2]
+tuple[1]=65 #not allowed
+#list is mutable and tuple is not mutable we can not b
+
+#tuple slicing is same as list slicing
+print(tuple[1:4])
+#tuple methods
+print(tuple.count(43))
+print(tuple.index(43))
+print(len(tuple))
+print(max(tuple))
+print(min(tuple))
+print(sum(tuple))"""
+
+#Q11 wap to ask user to enter names of their 3 favourite  movies & store them in a list 
+
+a = input("enter your first favourite movie :")
+b = input("enter your second favourite movie :")
+c = input("enter your third favourite movie :")
+
+movies = [a,b,c]
+print(movies)
+
+""""""
