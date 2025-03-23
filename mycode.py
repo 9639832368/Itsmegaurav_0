@@ -1,4 +1,4 @@
-"""
+
 #Q1
 str = "gaurav kumar chauhan"
 print(len(str))
