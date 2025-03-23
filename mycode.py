@@ -1,5 +1,5 @@
 """
-#q1
+#Q1
 str = "gaurav kumar chauhan"
 print(len(str))
 print((str[ 1:-5]))
