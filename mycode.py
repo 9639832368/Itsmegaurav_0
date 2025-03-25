@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 """#Q1 str slicing or functions
+=======
+#Q1
+>>>>>>> 0474447c3628b3c69ea40bc3706d7780425c9e7b
 str = "gaurav kumar chauhan"
 print(len(str))
 print((str[ 1:-5]))
@@ -201,6 +205,7 @@ c = input("enter your third favourite movie :")
 movies = [a,b,c]
 print(movies)
 
+<<<<<<< HEAD
 #or
 
 movies = []
@@ -412,3 +417,6 @@ print(collection.pop())
 print(collection)"
 """
 
+=======
+""""""
+>>>>>>> 0474447c3628b3c69ea40bc3706d7780425c9e7b
