@@ -1,9 +1,5 @@
 
-<<<<<<< HEAD
 """#Q1 str slicing or functions
-=======
-#Q1
->>>>>>> 0474447c3628b3c69ea40bc3706d7780425c9e7b
 str = "gaurav kumar chauhan"
 print(len(str))
 print((str[ 1:-5]))
@@ -205,7 +201,6 @@ c = input("enter your third favourite movie :")
 movies = [a,b,c]
 print(movies)
 
-<<<<<<< HEAD
 #or
 
 movies = []
@@ -417,6 +412,316 @@ print(collection.pop())
 print(collection)"
 """
 
-=======
-""""""
->>>>>>> 0474447c3628b3c69ea40bc3706d7780425c9e7b
+"""
+set1 = {'a','b','c','d',1,2,3,4,5,6}
+set2 = {'d','e','f','g',4,5,6,7,8,9}
+
+print(set1.union(set2))  # combine both and single time print all unique values
+print(set1.intersection(set2)) #print common elements in both sets"
+"""
+    
+#store following word meaning in a python dictonary
+"""
+dictionary = {
+    "cat" : "a small animal",
+    "table" : ["a peice of furniture","list of facts & figures"]
+}
+
+print(dictionary)
+
+classroom = {"python","cpp","java","dsa","javascript","html","css","sql","c","c++","python","cpp","java","dsa","javascript","html","css","sql","c","c++"}
+print(len(classroom))
+print(classroom)
+
+#Q14 WAP to enter marks of 5 subjects from user and store them in a dictionary.starting with an empty dictionary & add one by one. use subject name as a key & mark as value.
+
+marks = {}
+marks["maths"] = int(input("enter your maths marks :"))
+marks["science"] = int(input("enter your science marks :"))
+marks["english"] = int(input("enter your english marks :"))
+marks["hindi"] = int(input("enter your hindi marks :"))
+marks["sst"] = int(input("enter your sst marks :"))
+print(marks)
+
+#or
+
+marks = {}
+
+x = int(input("enter your maths marks :"))
+marks.update({"maths":x})
+
+x = int(input("enter your science marks :"))
+marks.update({"science":x})
+
+x = int(input("enter your english marks :"))
+marks.update({"english":x})
+
+x = int(input("enter your hindi marks :"))
+marks.update({"hindi":x})
+
+x = int(input("enter your sst marks :"))
+marks.update({"sst":x})
+
+print(marks)"""
+"""
+#Q15 figure out a way to store 9 & 9.0 as separate elements in a set
+
+values = {9,9.0}
+print(values)
+
+#or
+
+values = set()
+values.add(9)
+values.add(9.0)
+print(values)
+
+#or
+
+values = {9,"9.0"}
+print(values)
+
+#or
+
+values = {
+    ("float",9.0),
+    ("int",9)
+}
+print(values)"""
+
+# loops in python
+# for loop
+# while loop
+# nested loop
+# infinite loop
+# loop control statements
+# break
+# continue
+# pass
+# loop else
+# nested loop else
+
+#loops are used to repeat instructions or statements
+#loops are used to iterate over a sequence
+
+# while loop
+
+#while condition:
+#    statements
+"""
+print("hello world!")
+print("hello world!")
+print("hello world!")
+print("hello world!")
+print("hello world!")"""
+"""
+count = 0
+while count <= 6 :
+    print("hello world!")
+    count += 1;
+    print(count)
+
+    #here count is iterator and it is used to iterate over the sequence
+    #count is used to count the number of iterations
+    #in loop statement is iterational statement"""
+"""
+i = 0
+while i < 6:
+   
+    i += 1
+    print(i)
+
+    #Q1 print numbers from 1 to 100
+
+i = 0
+while i < 100:
+    i += 1
+    print(i)
+   
+
+    #Q2 print numbers from 100 to 1
+    i = 100
+    while i >= 1:
+        i -= 1
+        print(i)
+       """
+#Q3 input a number from user and print its table
+"""n = int(input("enter a number :"))
+i = 0
+while i < 10:
+    
+    i += 1
+    print(i*n)"""
+#Q4 print the elements of list using while loop
+#list = [1,4,9,16,25,36,49,64,81,100]
+
+"""i = 1
+while i<=10:
+    print(i*i)
+    i += 1
+
+    #list = [100,81,64,49,36,25,16,9,4,1]
+
+i = 10
+while i >= 1:
+    print(i*i)
+    i -= 1
+
+#searching for a nmber x in this tuple using loop
+#tuple = (1,4,9,16,25,36,49,64,81,100)
+
+x = 25
+tuple = (1,4,9,16,25,36,49,64,81,100)
+i = 0
+while i < len(tuple):
+    if tuple[i] == x:
+        print("element found at index :",i)
+        break
+    i += 1
+    break"""
+"""str = "gauravkumarchauhan"
+for char in str:
+    print(char)
+    else:
+        print("no character left")"""
+    
+"""nums = (1,4,9,16,25,36,49,64,81,100,25)
+x = 25
+
+idx = 0
+for el in nums:
+   if(el == x) :
+         print("element found at index :",idx)
+   idx += 1"""
+       
+
+"""for el in range(8):
+    print(el)
+
+for el in range(1,8):
+    print(el)
+
+for el in range(1,1445,21):
+    print(el)"""
+"""    
+for el in range(8*8,300,66):
+    print(el)"""
+
+"""def show(n):
+    if(n==0):
+        return
+    print(n)
+    show(n-1)
+    #print("END")
+
+show(990)"""
+"""
+def fact(n):
+    if(n==0 or n==1):
+        return 1
+    else:
+        return n*fact(n-1)
+    
+
+print(fact(6))"""
+
+"""def sum(n):
+    if(n==0):
+     return 0
+    else:
+       return sum(n-1)+(n)
+    
+print(sum(67))"""
+
+
+#write a recursive function to print all elements in a list
+#hint : use list & index as a parameter
+
+"""def _list(list,idx=0):
+    if(idx == len(list)):
+        return
+    print(list[idx])
+    _list(list,idx+1)
+
+vegetable =["ladyfinger","pumpkin","carrot","pea","lemon"]
+_list(vegetable)"""
+
+
+
+
+#file/io
+
+"""f = open("practice.py","r")
+data = f.read()
+print(data)
+print(type(data))
+f.close()
+
+"""
+
+"""f =open("open.txt","w")
+f.close()
+import os
+os.remove("open.txt") #delete a file"""
+"""
+f = open("practice.txt","a+t")
+
+f.write("hi everyone\n we are learning file I/O\n using java.\n I like programming in java")
+
+with open("practice.txt","r") as f:
+    data = f.read()
+    #to replace the word java with python in the file
+new_data = data.replace("java","python")
+with open("practice.txt","w") as f:
+    f.write(new_data)
+"""
+"""
+#to find a word in a file
+def find_word_in_file(file_path, word):
+    word = "python"
+    with open("practice.txt","r") as f:
+        data = f.read()
+        if(data.find(word) != -1):
+            print("word found")
+        else:   
+            print("word not found")
+            
+            
+            
+            find_word_in_file("practice.txt","python")"""
+
+"""def check_for_line():
+    word = "java"
+    data = True
+    line_no = 1
+    with open("practice.txt","r") as f:
+        while data:
+            data = f.readline()
+            if (word in data):
+                print("line no : ",line_no)
+                return
+                line_no += 1
+              
+            return -1
+print(check_for_line())
+   """
+count = 0
+with open("practice.txt","r") as f:
+    data = f.read()
+ 
+
+# num = ""
+   # for i in range(len(data)):
+       # if (data[i]== " ," ):
+          #  print(int(num))
+         #   num = ""
+       # else:
+       #     num += data[i]
+
+    nums = data.split(",")
+    for val in nums:
+       if(int(val) % 2 == 0):
+           count += 1
+
+
+print(count)
