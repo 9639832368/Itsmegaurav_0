@@ -31,8 +31,7 @@ value_convert(55)"""
         print("odd")
 
 
-even_odd(90)"""
-"""
+even_odd(90)
 class student:
     def __init__(self, name,history, geography, english):
         self.name = name
@@ -48,7 +47,7 @@ class student:
 
 s1 = student("John", 90, 80, 85)
   s1.avg()
-"""
+
 class account:
     def __init__(self, balance,account_number):
         self.balance = balance
@@ -75,4 +74,43 @@ acc1.credit(500)
 acc1.debit(200)
 acc1.credit(100000)
 
-acc1.check_balance()
+acc1.check_balance()"""
+
+# print sum of n number
+"""N = int(input("Enter the number of elements: "))
+sum = 0; count = 1
+while count <= N:
+    sum += count
+    count += 1
+print("Sum of first ", N, " numbers is ", sum)
+"""
+
+"""num = int(input("enter a number : "))
+i = 2
+while i <= (num-1):
+    if(num%i==0):
+        print("not prime")
+        break
+    else:
+         i+=1
+    
+if(i==num):
+    print("prime")"""
+"""
+p = float(input("enter your principal amount : "))
+r = float(input("enter your rate of interest : "))
+t = float(input("enter your time period : "))
+
+SI = p*r*t/100
+print("simple interest is : ", SI)"""
+
+"""def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+num = int(input("Enter a number: "))
+result = print(factorial(num))"""
+
+
+
