@@ -179,14 +179,122 @@ int main(){
     //       i++;
     //  }
     
-    int n, i=1;
-    cout<<"Enter a number"<<endl;
-    cin>>n;
+    // int n, i=1;
+    // cout<<"Enter a number"<<endl;
+    // cin>>n;
+//infinite loop
+    // while(i<=n){
+    //     cout<<"I LOVE U GAURAV"<<endl;
+           
+    // }   
+    
+    
+     //for loop
+    //  int n;
+    //  cout<<"Enter a number"<<endl;
+    //  cin>>n;
+    //  for(int i=1; i<=10; i++){
+    //      cout<<n*i<<endl;
+    //  }
 
-    while(i<=n){
-        cout<<"I LOVE U GAURAV"<<endl;
+   
+    // int n;
+    // cout<<"Enter a number"<<endl;
+    // cin>>n;
+    // for(int i=2; i<(n-1); i++){
+    //     if(n%i==0){
+    //         cout<<n<<" is not prime"<<endl;
+    //         break;
+    //     }else{  
+    //         cout<<n<<" is prime"<<endl;
+    //         break;
+    //     }
+    // }    
+    //    int n,i=1,sum = 0;
+    //       cout<<"Enter a number"<<endl;
+    //       cin>>n;
+
+        //   while(i<=n){
+        //     sum += i;
+
+        //     i++;
         
-    }
+        // }
+        // cout<<sum<<endl;
+      //for(int i=1; i<=n; i+=2)
+    //    for(int i=1; i<=n; i++){
+    //         if(i% 2 == 0){
+    //            sum += i; 
 
+    //         }
 
+          
+    //     }
+    //     cout<<sum<<endl;
+
+    // int n, i = 1, sum = 0;
+    // cout << "Enter a number" << endl;
+    // cin >> n;
+    // do{
+       
+    //     sum += i;
+    //     i++;
+    // } while (i <= n);
+    // cout << sum << endl;
+    
+    // return 0;
+
+    // int n,i = 2;
+    // cout<<"enter a number :"<<endl;
+    // cin>>n;
+    // write a program to find prime number using do while loop
+    // do{
+    //     if(n%i==0){
+    //         cout<<n<<" is not prime"<<endl;
+    //         break;
+    //     }else{
+    //         cout<<n<<" is prime"<<endl;
+    //         break;
+    //     }
+    //     i++;
+    // }while(i<n);
+    // return 0;
+
+    //using boolen function to find prime number
+
+    // bool isPrime = true;
+    // for(int i = 2; i*i <= n; i++){
+    //     if(n % i == 0){
+    //         isPrime = false;
+    //         break;
+    //     }
+    // }
+
+    // if(isPrime){
+    //     cout << n << " is prime" << endl;   
+    // }else{
+    //     cout << n << " is not prime" << endl;   
+    // }
+    // return 0;
+
+    //nested loop
+
+     for(int i = 1; i <= 5; i++){
+        for(int j = 1; j <= 5; j++){ 
+            cout << "* ";
+        }
+        cout << endl;
+     }
+
+//factorial of a number using loop
+
+double n;
+cout<<"Enter a number"<<endl;
+cin>>n;
+double fact = 1;
+for(int i = 1; i <= n; i++){
+    fact *= i;
+}
+cout << "Factorial of " << n << " is " << fact << endl;
+return 0;
 }
