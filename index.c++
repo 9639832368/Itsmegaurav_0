@@ -1,4 +1,5 @@
 # include<iostream>
+#include<vector>
 using namespace std;
 int main(){
 //    double age = 23.5;
@@ -279,22 +280,40 @@ int main(){
 
     //nested loop
 
-     for(int i = 1; i <= 5; i++){
-        for(int j = 1; j <= 5; j++){ 
-            cout << "* ";
-        }
-        cout << endl;
-     }
+    //  for(int i = 1; i <= 5; i++){
+    //     for(int j = 1; j <= 5; j++){ 
+    //         cout << "* ";
+    //     }
+    //     cout << endl;
+    //  }
 
 //factorial of a number using loop
 
-double n;
-cout<<"Enter a number"<<endl;
-cin>>n;
-double fact = 1;
-for(int i = 1; i <= n; i++){
-    fact *= i;
-}
-cout << "Factorial of " << n << " is " << fact << endl;
-return 0;
+// double n;
+// cout<<"Enter a number"<<endl;
+// cin>>n;
+// double fact = 1;
+// for(int i = 1; i <= n; i++){
+//     fact *= i;
+// }
+// cout << "Factorial of " << n << " is " << fact << endl;
+// return 0;
+
+
+// vector
+ int n =5;
+ int arr[5]= {1,2,3,4,5};
+ for(int st =0; st<n; st++){
+    for(int end= st; end<n; end++){
+        for(int i = st; i<=end; i++){
+            cout<<arr[i];
+
+           }
+           cout<<" ";
+
+       }
+       cout<<endl;
+    
+ }
+ return 0;
 }
